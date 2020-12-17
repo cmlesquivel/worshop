@@ -1,0 +1,33 @@
+.card img {
+    width: 100%;
+}
+
+
+.card .col {
+    padding: 0;
+}
+
+.card button.button-buy
+{
+    width: 100%;
+    background-color: #FF9700;
+    color: white;
+    border-radius: 3px;
+}
+
+.card .container-button-buy{
+    display: flex;
+    align-items: center;
+}
+
+.card .container-buttons-quantity button{
+    margin:5px 0px;
+    border-radius: 3px;
+    color: white;
+    background-color: #d3d3d3;
+}
+
+
+.card .container-buttons-quantity button:first-child{
+   background-color: #666;
+}
