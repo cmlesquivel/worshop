@@ -15,19 +15,37 @@
     border-radius: 3px;
 }
 
-.card .container-button-buy{
-    display: flex;
-    align-items: center;
-}
-
 .card .container-buttons-quantity button{
     margin:5px 0px;
-    border-radius: 3px;
+    border-radius: 3px !important;
     color: white;
     background-color: #d3d3d3;
+    padding: 0px 2px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
 .card .container-buttons-quantity button:first-child{
    background-color: #666;
+}
+
+.card .container-buttons-quantity button:first-child:hover{
+    background-color: green;
+}
+
+.card .container-quantity p{
+    text-align: center;
+    background-color: #80808024;
+    width: 65px;
+    margin: 5px 0px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.card .container-quantity div{
+    height: 100%;
 }
